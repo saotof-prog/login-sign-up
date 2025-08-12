@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="wrapper" id="formwrapper">
+            <div class="form-container login">
+                <h2>Login</h2>
+                <form>
+                    <input type="email" placeholder="Email,username..." required>
+                    <input type="password" placeholder="Password" required>
+                    <div class="forgot-password" tabindex="0">Forgot Password?</div>
+                    <button type="submit" class="submit-btn">Login</button>
+                    <div class="social-login">
+                        <div class="social-btn google" title="sign in with Google" role="button" tabindex="0">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            </svg>
+                        </div>
+                        <div class="social-btn facebook" title="sign in with Facebook" role="button" tabindex="0">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            </svg>
+                        </div>
+                        <div class="social-btn github" title="sign in with Github" role="button" tabindex="0">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            </svg>
+                        </div>
+                        <div class="social-btn x" title="sign in with X (Twitter)" role="button" tabindex="0">
+                            <svg viewBox="0 0 1200 1227" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                            </svg>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+        
+            <div class="form-container signin">
+                <h2>Sign Up</h2>
+                <form>
+                    <input type="text" placeholder="Username" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="confirmed Password" required>
+        
+                    <label class="accept-terms">
+                        <input type="checkbox" required> I accepted the terms & conditions
+                    </label>
+                    <button type="submit" class="submit-btn">Sign Up</button>
+                    <div class="social-login">
+                        <div class="social-btn google" title="sign up with Google" role="button" tabindex="0">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            </svg>
+                        </div>
+                        <div class="social-btn facebook" title="sign up with Facebook" role="button" tabindex="0">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            </svg>
+                        </div>
+                        <div class="social-btn github" title="sign up with Github" role="button" tabindex="0">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            </svg>
+                        </div>
+                        <div class="social-btn x" title="sign up with X (Twitter)" role="button" tabindex="0">
+                            <svg viewBox="0 0 1200 1227" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                            </svg>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+        
+        
+            <div class="toggle-container">
+                <h2 id="toggleHeading">Don't have an account?</h2>
+                <p id="toggleText">Sign up to get started</p>
+                <button class="switch-btn" id="toggleBtn">Sign Up</button>
+            </div>
+        </div>
+<script src="script.js"></script>
+</body>
+</html>
